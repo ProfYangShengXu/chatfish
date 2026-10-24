@@ -1,0 +1,33 @@
+{
+  "name": "chatfish",
+  "version": "1.0.0",
+  "description": "A complete QQ chatbot framework: social simulation, layered memory, persona engineering and cross-conversation context on top of QQbridge.",
+  "license": "AGPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProfYangShengXu/chatfish.git"
+  },
+  "homepage": "https://github.com/ProfYangShengXu/chatfish#readme",
+  "keywords": [
+    "qq-bot",
+    "chatbot",
+    "ai-agent",
+    "llm-agent",
+    "onebot",
+    "snowluma",
+    "deepseek-harness",
+    "memory",
+    "social-simulation"
+  ],
+  "author": "ProfYangShengXu",
+  "bugs": {
+    "url": "https://github.com/ProfYangShengXu/chatfish/issues"
+  },
+  "private": true,
+  "workspaces": [
+    "bridge"
+  ],
+  "scripts": {
+    "test": "npm --prefix bridge test"
+  }
+}

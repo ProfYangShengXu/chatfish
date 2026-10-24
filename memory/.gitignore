@@ -1,0 +1,28 @@
+# —— 机密 ——
+.env
+.pgpass.generated
+
+# —— 运行期数据 ——
+var/
+*.log
+server.lock
+
+# —— 模型与下载缓存 ——
+models/
+*.safetensors
+
+# —— Python ——
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# —— 注入目标（记忆区是自动生成的，不入库）——
+CLAUDE.md
+AGENTS.md

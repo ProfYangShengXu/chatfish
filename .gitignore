@@ -1,0 +1,50 @@
+# ── 依赖 ──────────────────────────────────────────────
+node_modules/
+.npm-cache/
+.venv/
+venv/
+*.egg-info/
+
+# ── 机密（绝对不能入库）─────────────────────────────────
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.pgpass*
+*secret*
+*credential*
+
+# ── 运行期数据与本地配置 ────────────────────────────────
+state/
+var/
+config.json
+server.lock
+*.log
+*.bak
+*.bak-*
+
+# ── 记忆区（自动生成，不入库）───────────────────────────
+AGENTS.md
+CLAUDE.md
+
+# ── 模型与缓存 ─────────────────────────────────────────
+models/
+*.safetensors
+*.gguf
+
+# ── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# ── 编辑器 / 系统 ──────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
