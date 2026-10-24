@@ -2,7 +2,7 @@
 
 **一套完整的 QQ 聊天机器人框架** —— 把一个大模型变成一个在群里待得住、记得住人、说得出人话的群友。
 
-> 本项目脱胎于 **[QQbridge](https://github.com/ProfYangShengXu/qq-bridge)**，在此郑重致敬。
+> 本项目脱胎于 **[QQbridge](https://github.com/Derpyu520/qq-bridge)**，在此郑重致敬。
 > QQbridge 解决了「消息怎么进来、怎么出去」这一半；chatfish 在它的基础上补完了另一半：
 > **社交仿真、分层记忆、人设工程、跨会话上下文** —— 让它不只是个能收发消息的壳，而是一套能长期运转的框架。
 
@@ -127,7 +127,7 @@ cd ../memory && uv sync && cp .env.example .env
 
 ## 致敬
 
-- **[QQbridge](https://github.com/ProfYangShengXu/qq-bridge)** —— chatfish 的直接源头。消息桥接、MCP 工具层、表情包链路都来自它
+- **[QQbridge](https://github.com/Derpyu520/qq-bridge)** —— chatfish 的直接源头。消息桥接、MCP 工具层、表情包链路都来自它
 - **[MaiBot](https://github.com/Mai-with-u/MaiBot)** —— 人性化机制的参考：防抖控制器、沉默权、表达学习、注意力漂移
 - **[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)** —— 默认的 agent runtime
 - **[SnowLuma](https://github.com/SnowLuma-Project)** —— OneBot v11 实现
